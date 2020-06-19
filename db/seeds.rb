@@ -6,3 +6,5 @@ sian = User.create!(
   last_name: "Stone"
 )
 
+thing1 = Thing.create(name: "something", user: sian)
+
